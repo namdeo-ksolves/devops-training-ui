@@ -1,0 +1,16 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top, rgba(99, 102, 241, 0.14), transparent 35%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+a {
+  color: inherit;
+}
