@@ -17,7 +17,7 @@ A small React + Vite site that presents a structured DevOps team training roadma
 
 - `src/main.jsx`: Vite entrypoint
 - `src/App.jsx`: app wrapper
-- `devops-training-plan.jsx`: main training-plan component and dataset
+- `onprem-devops-training.jsx`: current main training-plan component and dataset
 - `.github/workflows/deploy.yml`: GitHub Pages deployment workflow
 
 ## Local Development
@@ -47,4 +47,4 @@ GitHub configuration:
 
 ## Updating Content
 
-To edit the training roadmap, update the data and UI in `devops-training-plan.jsx`. The main curriculum is defined in `trainingData`, and the weekly summary bar is defined in `weeklyScheduleTemplate`.
+To edit the live training roadmap, update the data and UI in `onprem-devops-training.jsx`. The main curriculum is defined in `trainingData`, and the weekly summary bar is defined in `schedule`.

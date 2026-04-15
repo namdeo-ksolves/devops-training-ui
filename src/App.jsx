@@ -1,5 +1,5 @@
-import DevOpsTrainingPlan from "../devops-training-plan.jsx";
+import OnPremDevOpsTraining from "../onprem-devops-training.jsx";
 
 export default function App() {
-  return <DevOpsTrainingPlan />;
+  return <OnPremDevOpsTraining />;
 }
